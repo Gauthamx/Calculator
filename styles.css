@@ -17,6 +17,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+
 #keys button{
     border-radius: 30%;
     height: 80px;
@@ -63,3 +64,33 @@
     border: none;
 }
 
+@media(max-width:400px) {
+    
+    .container {
+        width: auto;
+        height: screen;
+        display: flex;
+        background: #e3f9ff;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #calculator {
+        background-color: #3a4452;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    #keys button{
+        border-radius: 30%;
+        height: 60px;
+        width: 60px;
+        border: none;
+        color: white;
+        outline: 0;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+        background: transparent;
+        margin: 8px;
+        transition: ease 0.2s;
+    }
+}
