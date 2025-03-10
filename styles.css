@@ -64,7 +64,7 @@
     border: none;
 }
 
-@media(max-width:400px) {
+@media(max-width:350px) {
     
     .container {
         width: auto;
