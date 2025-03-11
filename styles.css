@@ -64,13 +64,13 @@
     border: none;
 }
 
-@media(max-width:350px) {
+@media(max-width:400px) {
     
     .container {
         width: auto;
-        height: screen;
+        height: auto;
         display: flex;
-        background: #e3f9ff;
+        background: #3a4452;
         justify-content: center;
         align-items: center;
     }
@@ -92,5 +92,9 @@
         background: transparent;
         margin: 8px;
         transition: ease 0.2s;
+    }
+
+    body {
+        background: #3a4452;
     }
 }
